@@ -1,0 +1,107 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #ffa840;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #ffa840;
+  color: #fff;
+  padding: 1rem;
+}
+
+header .logo {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  padding: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+/* Landing Page */
+.intro {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.intro h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.cta-buttons a {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.about {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.results-section {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.results-section form input, .results-section form button {
+  padding: 10px;
+  margin: 10px;
+  font-size: 1rem;
+}
+
+.feedback-section form input, .feedback-section form textarea, .feedback-section form button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.feedback-section form button {
+  background-color: #333;
+  color: white;
+  border: none;
+  font-size: 1.1rem;
+}
+
+.admin-actions button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
